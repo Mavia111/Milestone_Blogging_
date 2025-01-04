@@ -1,11 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  eslint: {
-    ignoreDuringBuilds: true, // Ignores all ESLint errors during builds
-  },
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
 };
-
 
 export default nextConfig;
